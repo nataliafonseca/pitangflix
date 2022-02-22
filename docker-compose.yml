@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  database:
+    image: postgres
+    container_name: database
+    restart: on-failure
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=pitang
+      - POSTGRES_PASSWORD=pitang
+      - POSTGRES_DB=pitangflix
+    volumes:
+      - pgdata:/data/postgres
+
+volumes:
+  pgdata:
+    driver: local

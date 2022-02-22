@@ -1,0 +1,16 @@
+{
+  "name": "pitangflix",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "prisma": "^3.9.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.9.2"
+  }
+}
