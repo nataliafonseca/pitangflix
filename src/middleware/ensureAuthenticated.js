@@ -23,7 +23,7 @@ export async function ensureAuthenticated(request, response, next) {
     request.user = user;
 
     next();
-  } catch {
+  } catch (error) {
     throw new AppError("Invalid Token", 401);
   }
 }
