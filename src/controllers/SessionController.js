@@ -1,3 +1,4 @@
+import Joi from "joi";
 import Controller from "./Controller.js";
 
 const schema = Joi.object({
