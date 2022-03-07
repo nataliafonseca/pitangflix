@@ -1,7 +1,7 @@
 _id: req_26e5243787504228a9b6b1be143ef627
 type: Request
 parentId: fld_18ba8a6299404fc08a7374b27feea697
-modified: 1646660867615
+modified: 1646684249304
 created: 1646660804901
 url: "{{ _.baseURL }}/user/{% response 'body',
   'req_83dc7aa82c854900a1d1b9105f2f996b', 'b64::JC5pZA==::46b', 'never', 60 %}"
@@ -11,7 +11,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.userToken }}"
 metaSortKey: -1646659094437
 isPrivate: false
 settingStoreCookies: true

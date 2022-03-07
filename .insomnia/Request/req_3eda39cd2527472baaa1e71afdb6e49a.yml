@@ -1,9 +1,10 @@
 _id: req_3eda39cd2527472baaa1e71afdb6e49a
 type: Request
 parentId: fld_e5b68427bdc64eeaadd3e89afa8e0743
-modified: 1646664218152
+modified: 1646684206141
 created: 1646659057576
-url: "{{ _.baseURL }}/movie/djk"
+url: "{{ _.baseURL }}/movie/{% response 'body',
+  'req_2bf3d38da39948d4991050ebf75eee1d', 'b64::JC5pZA==::46b', 'never', 60 %}"
 name: Update
 description: ""
 method: PUT
@@ -21,7 +22,9 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_4d426a07fde04a1dbf6acc4434b7ba24
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.userToken }}"
 metaSortKey: -1646659094412
 isPrivate: false
 settingStoreCookies: true

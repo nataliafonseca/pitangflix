@@ -1,7 +1,7 @@
 _id: req_2bf3d38da39948d4991050ebf75eee1d
 type: Request
 parentId: fld_e5b68427bdc64eeaadd3e89afa8e0743
-modified: 1646664416478
+modified: 1646684155445
 created: 1646650734066
 url: "{{ _.baseURL }}/movie"
 name: Create
@@ -11,14 +11,18 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"title": "Movie 1"
+    	"title": "Movie 1",
+      "description": "Movie 1",
+      "duration": 100
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_99b81c22914f4c04bf6d7b5b920913b4
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.userToken }}"
 metaSortKey: -1646659094462
 isPrivate: false
 settingStoreCookies: true

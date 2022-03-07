@@ -1,7 +1,7 @@
 _id: req_d75ea30728b5456c9dcc4bce11a8ffad
 type: Request
 parentId: fld_18ba8a6299404fc08a7374b27feea697
-modified: 1646664566388
+modified: 1646684289318
 created: 1646664538247
 url: "{{ _.baseURL }}/user/login"
 name: Login
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-          "email": "nati@nati.nati",
+          "email": "nat@nat.nat",
           "password": "123456"
     }
 parameters: []

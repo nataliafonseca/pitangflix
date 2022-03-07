@@ -1,7 +1,7 @@
 _id: req_a5c5f344ec9d4f0db02557cb3ea10b89
 type: Request
 parentId: fld_18ba8a6299404fc08a7374b27feea697
-modified: 1646660893723
+modified: 1646684276250
 created: 1646660804905
 url: "{{ _.baseURL }}/user/{% response 'body',
   'req_83dc7aa82c854900a1d1b9105f2f996b', 'b64::JC5pZA==::46b', 'never', 60 %}"
@@ -11,7 +11,9 @@ method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.userToken }}"
 metaSortKey: -1646659094362
 isPrivate: false
 settingStoreCookies: true

@@ -1,17 +1,19 @@
 _id: req_b6352eb78c4249e98a47d7d888098e6c
 type: Request
 parentId: fld_e5b68427bdc64eeaadd3e89afa8e0743
-modified: 1646660833343
+modified: 1646684207242
 created: 1646659094362
 url: "{{ _.baseURL }}/movie/{% response 'body',
-  'req_2bf3d38da39948d4991050ebf75eee1d', 'b64::JC5pZA==::46b', 'never', 60 %}"
+  'req_2bf3d38da39948d4991050ebf75eee1d', 'b64::JC5pZA==::46b', 'always', 60 %}"
 name: Delete
 description: ""
 method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.userToken }}"
 metaSortKey: -1646659094362
 isPrivate: false
 settingStoreCookies: true
