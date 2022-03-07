@@ -1,2 +1,0 @@
-{"level":"error","message":"401 - Authorization missing","timestamp":"2022-03-07T14:56:54.841Z"}
-{"level":"http","message":"POST /api/user 401 9.993 ms - 33","timestamp":"2022-03-07T14:56:54.847Z"}
