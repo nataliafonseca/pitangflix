@@ -1,0 +1,34 @@
+_id: req_0fddfc347ba14367b29dcc9493959b2e
+type: Request
+parentId: fld_18ba8a6299404fc08a7374b27feea697
+modified: 1646664212083
+created: 1646660804903
+url: "{{ _.baseURL }}/user/{% response 'body',
+  'req_83dc7aa82c854900a1d1b9105f2f996b', 'b64::JC5pZA==::46b', 'never', 60 %}"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "nati",
+      "email": "nati@nati.nati",
+      "password": "123456",
+      "birthDate": "1995-02-03",
+      "reviewer": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4d426a07fde04a1dbf6acc4434b7ba24
+authentication: {}
+metaSortKey: -1646659094412
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

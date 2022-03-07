@@ -1,9 +1,9 @@
-_id: req_2bf3d38da39948d4991050ebf75eee1d
+_id: req_83dc7aa82c854900a1d1b9105f2f996b
 type: Request
-parentId: fld_e5b68427bdc64eeaadd3e89afa8e0743
-modified: 1646664416478
-created: 1646650734066
-url: "{{ _.baseURL }}/movie"
+parentId: fld_18ba8a6299404fc08a7374b27feea697
+modified: 1646666566608
+created: 1646660804899
+url: "{{ _.baseURL }}/user"
 name: Create
 description: ""
 method: POST
@@ -11,7 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"title": "Movie 1"
+          "name": "nati",
+          "email": "nati@nati.nati",
+          "password": "123456",
+          "birthDate": "1995-02-03"
     }
 parameters: []
 headers:

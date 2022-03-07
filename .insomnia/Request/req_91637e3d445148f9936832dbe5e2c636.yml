@@ -1,17 +1,17 @@
-_id: req_0dd11380d54848b0a3f092006bf84083
+_id: req_91637e3d445148f9936832dbe5e2c636
 type: Request
-parentId: wrk_b43b5af70e484d6987bb8a5e42e71cf2
-modified: 1646654618463
-created: 1646653129368
-url: "{{ _.baseURL }}"
-name: Welcome to PitangFlix
+parentId: fld_18ba8a6299404fc08a7374b27feea697
+modified: 1646660839113
+created: 1646660804894
+url: "{{ _.baseURL }}/user"
+name: Get All
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1646653129368
+metaSortKey: -1646659094512
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

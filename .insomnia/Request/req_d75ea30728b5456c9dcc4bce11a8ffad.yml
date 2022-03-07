@@ -1,17 +1,18 @@
-_id: req_2bf3d38da39948d4991050ebf75eee1d
+_id: req_d75ea30728b5456c9dcc4bce11a8ffad
 type: Request
-parentId: fld_e5b68427bdc64eeaadd3e89afa8e0743
-modified: 1646664416478
-created: 1646650734066
-url: "{{ _.baseURL }}/movie"
-name: Create
+parentId: fld_18ba8a6299404fc08a7374b27feea697
+modified: 1646664566388
+created: 1646664538247
+url: "{{ _.baseURL }}/user/login"
+name: Login
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"title": "Movie 1"
+          "email": "nati@nati.nati",
+          "password": "123456"
     }
 parameters: []
 headers:
@@ -19,7 +20,7 @@ headers:
     value: application/json
     id: pair_99b81c22914f4c04bf6d7b5b920913b4
 authentication: {}
-metaSortKey: -1646659094462
+metaSortKey: -1646659094312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

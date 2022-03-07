@@ -1,25 +1,28 @@
-_id: req_2bf3d38da39948d4991050ebf75eee1d
+_id: req_3eda39cd2527472baaa1e71afdb6e49a
 type: Request
 parentId: fld_e5b68427bdc64eeaadd3e89afa8e0743
-modified: 1646664416478
-created: 1646650734066
-url: "{{ _.baseURL }}/movie"
-name: Create
+modified: 1646664218152
+created: 1646659057576
+url: "{{ _.baseURL }}/movie/djk"
+name: Update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"title": "Movie 1"
+    	"title": "Filminho",
+    	"description": "kdsndkf kjdnjkn",
+    	"duration": 200,
+    	"classification": "GENERAL_AUDIENCE"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_99b81c22914f4c04bf6d7b5b920913b4
+    id: pair_4d426a07fde04a1dbf6acc4434b7ba24
 authentication: {}
-metaSortKey: -1646659094462
+metaSortKey: -1646659094412
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
