@@ -1,0 +1,22 @@
+_id: req_8949b94dac934690b2262731ce3c692d
+type: Request
+parentId: wrk_b43b5af70e484d6987bb8a5e42e71cf2
+modified: 1646658855037
+created: 1646655457515
+url: "{{ _.baseURL }}/movie/{% response 'body',
+  'req_2bf3d38da39948d4991050ebf75eee1d', 'b64::JC5pZA==::46b', 'never', 60 %}"
+name: Get Movie
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646655457516
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

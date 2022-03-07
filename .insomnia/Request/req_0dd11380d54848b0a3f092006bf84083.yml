@@ -1,0 +1,21 @@
+_id: req_0dd11380d54848b0a3f092006bf84083
+type: Request
+parentId: wrk_b43b5af70e484d6987bb8a5e42e71cf2
+modified: 1646654618463
+created: 1646653129368
+url: "{{ _.baseURL }}"
+name: Welcome to PitangFlix
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646653129368
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

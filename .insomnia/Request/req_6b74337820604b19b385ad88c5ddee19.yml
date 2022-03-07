@@ -1,0 +1,21 @@
+_id: req_6b74337820604b19b385ad88c5ddee19
+type: Request
+parentId: wrk_b43b5af70e484d6987bb8a5e42e71cf2
+modified: 1646655389878
+created: 1646650075916
+url: "{{ _.baseURL }}/movie"
+name: Get All Movies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646650075917
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
